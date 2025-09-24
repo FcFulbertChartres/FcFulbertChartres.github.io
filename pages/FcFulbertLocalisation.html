@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Fulbert Chartres - Club de Football à Chartres | Actualités, Matchs</title>
+    <meta name="description" content="FC Fulbert Chartres - Club de football amateur à Chartres évoluant en Régional 1. Retrouvez actualités, calendrier des matchs et informations pratiques à Chartres.">
+    <meta name="keywords" content="FC Fulbert Chartres, football Chartres, club football Chartres, matchs Chartres, sport Chartres">
+    
+    <!-- Balises géolocalisation -->
+    <meta name="geo.region" content="FR-28">
+    <meta name="geo.placename" content="Chartres">
+    <meta name="geo.position" content="48.443854;1.489012">
+    <meta name="ICBM" content="48.443854, 1.489012">
+    
+    <!-- Open Graph avec localisation -->
+    <meta property="og:title" content="FC Fulbert Chartres - Club de Football à Chartres">
+    <meta property="og:description" content="Club de football amateur à Chartres évoluant en Régional 1">
+    <script src="schema.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #f59e0b;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1575361204480-aadea25e6e68?ixlib=rb-4.0.3');
+            background-size: cover;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+        }
+        
+        .local-badge {
+            background: #f59e0b;
+            color: #000;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        
+        #map {
+            height: 300px;
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-futbol me-2"></i>FC Fulbert <strong>Chartres</strong>
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <span class="local-badge">📍 Club de Football à Chartres</span>
+            <h1>FC Fulbert Chartres</h1>
+            <p class="lead">Le club de football chartrain qui allie passion et performance</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <!-- Section localisation renforcée -->
+        <section class="mb-5">
+            <h2>Notre club à <strong>Chartres</strong></h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="lead">Installé à <strong>Chartres</strong> depuis 1985, le FC Fulbert est un acteur majeur du sport chartrain.</p>
+                    <p>Nous sommes fiers de représenter <strong>Chartres</strong> et son agglomération dans le championnat Régional 1.</p>
+                    <ul>
+                        <li>📍 Situé à <strong>Chartres</strong> Centre</li>
+                        <li>🚗 Accès facile depuis tout <strong>Chartres</strong></li>
+                        <li>👥 200 licenciés de <strong>Chartres</strong> et environs</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carte Google Maps -->
+        <section class="my-5">
+            <h2>Nous trouver à <strong>Chartres</strong></h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.12543506952!2d1.4864233768874082!3d48.44385304606948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e40b0c9c3f3e3d%3A0xed63e8d0d3a832d!2sChartres%2C%20France!5e0!3m2!1sfr!2sfr!4v1698765432100!5m2!1sfr!2sfr" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="col-md-4">
+                    <h3>Stade des Ormes</h3>
+                    <address>
+                        <strong>FC Fulbert Chartres</strong><br>
+                        Rue du Sport<br>
+                        28000 Chartres<br>
+                        <i class="fas fa-phone"></i> 02 37 00 00 00<br>
+                        <i class="fas fa-envelope"></i> fcfulbertchartres@gmail.com
+                    </address>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenu local optimisé -->
+        <section class="my-5">
+            <h2>Le FC Fulbert, fierté de <strong>Chartres</strong></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>🏆 Palmarès à <strong>Chartres</strong></h3>
+                            <p>Multiple champion régional représentant <strong>Chartres</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>👥 Équipe <strong>Chartraine</strong></h3>
+                            <p>Joueurs formés à <strong>Chartres</strong> et recrutés localement</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>🌍 Bassin <strong>Chartres</strong></h3>
+                            <p>Club ancré dans le tissu sportif de <strong>Chartres</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p><strong>FC Fulbert Chartres</strong> - Club de football à Chartres depuis 1985</p>
+            <p>Stade des Ormes - 28000 Chartres - Tel: 02 37 00 00 00</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Mots-clés locaux pour renforcer le référencement
+        const localKeywords = [
+            "Chartres", "chartrain", "28000", "Eure-et-Loir", 
+            "Centre-Val de Loire", "agglomération chartraine"
+        ];
+        
+        // Injection des mots-clés dans le contenu
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('p, li, span, h1, h2, h3');
+            elements.forEach(el => {
+                let text = el.innerHTML;
+                localKeywords.forEach(keyword => {
+                    const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
+                    text = text.replace(regex, `<strong>${keyword}</strong>`);
+                });
+                el.innerHTML = text;
+            });
+        });
+    </script>
+</body>
+</html>
