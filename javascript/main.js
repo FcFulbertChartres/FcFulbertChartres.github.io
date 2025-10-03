@@ -53,15 +53,26 @@ function initAccessibility() {
 
 function highlightLocalKeywords() {
     const elements = document.querySelectorAll('p, li, span, h1, h2, h3, h4, h5, h6');
+
     elements.forEach(el => {
-        let text = el.innerHTML;
-        LOCAL_KEYWORDS.forEach(keyword => {
-            const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
-            text = text.replace(regex, `<strong class="local-keyword">${keyword}</strong>`);
+        el.childNodes.forEach(node => {
+            if (node.nodeType === Node.TEXT_NODE) { 
+                let text = node.textContent;
+                LOCAL_KEYWORDS.forEach(keyword => {
+                    const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
+                    text = text.replace(regex, `<strong class="local-keyword">${keyword}</strong>`);
+                });
+
+                if (text !== node.textContent) {
+                    const span = document.createElement('span');
+                    span.innerHTML = text;
+                    node.replaceWith(...span.childNodes);
+                }
+            }
         });
-        el.innerHTML = text;
     });
 }
+
 
 function initScrollAnimations() {
     const animateOnScroll = new IntersectionObserver((entries) => {
