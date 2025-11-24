@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendrier FC Fulbert Chartres - Matchs et Résultats | Football Chartres</title>
-    <meta name="description" content="Découvrez le FC Fulbert Chartres, club de football passionné et formateur d’Eure-et-Loir. Consultez la liste des joueurs du FC Fulbert, les résultats, le classement et suivez toute l’actualité du soccer à Chartres et ses environs : Luisant, Lèves, Champhol et Jouy.">
+    <title>Calendrier & Résultats 2024-2025 | FC Fulbert Chartres (R1)</title>
+    <meta name="description" content="Calendrier officiel du FC Fulbert Chartres pour la saison 2024-2025 en Régional 1. Dates des matchs au Stade des Ormes, résultats et classement en direct.">
+    <meta name="keywords" content="match foot chartres, calendrier fc fulbert, résultat régional 1 centre, stade des ormes chartres, football 28">
     
-    <!-- Balises géolocalisation -->
     <meta name="geo.region" content="FR-28">
     <meta name="geo.placename" content="Chartres">
     
-    <!-- CSS -->
+    <meta property="og:title" content="Matchs du FC Fulbert Chartres - Saison 2024/2025">
+    <meta property="og:description" content="Venez supporter les Bleus ! Prochain match au Stade des Ormes ce samedi.">
+    <meta property="og:url" content="https://fcfulbertchartres.github.io/pages/calendrier.html">
+    <meta property="og:type" content="website">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom sticky-top">
+<body itemscope itemtype="https://schema.org/SportsTeam">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom sticky-top" aria-label="Menu Principal">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">
-            <img src="../images/logo.png" alt="Logo FC Fulbert Chartres" class="me-2" style="height: 40px;">
-            FC Fulbert <strong>Chartres</strong>
+            <a class="navbar-brand" href="../index.html" itemprop="name">
+                <img src="../images/logo.png" alt="Logo FC Fulbert Chartres" class="me-2" style="height: 40px;">
+                FC Fulbert <strong>Chartres</strong>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -29,42 +32,45 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="equipe.html">Équipe</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="calendrier.html">Calendrier</a></li>
+                    <li class="nav-item"><a class="nav-link" href="equipe.html">Équipe R1</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="calendrier.html" aria-current="page">Calendrier</a></li>
                     <li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Classement.html">Classement </a></li>
+                    <li class="nav-item"><a class="nav-link" href="Classement.html">Classement</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero-section hero-calendrier">
+    <header class="hero-section hero-calendrier" role="banner">
         <div class="container">
-            <span class="local-badge">📅 Calendrier 2023-2024</span>
-            <h1>Calendrier des Matchs</h1>
-            <p class="lead">Suivez tous les matchs du FC Fulbert Chartres</p>
+            <span class="local-badge">📅 Saison 2024-2025</span>
+            <h1 class="display-4 fw-bold">Calendrier des Matchs</h1>
+            <p class="lead">Le programme complet du FC Fulbert en Régional 1</p>
         </div>
     </header>
 
     <main class="container my-5">
-        <!-- Prochain Match -->
         <section class="mb-5" aria-labelledby="next-match-heading">
-            <h2 id="next-match-heading" class="section-title">Prochain Match</h2>
-            <div class="card match-card bg-light">
+            <h2 id="next-match-heading" class="section-title">Le Choc de la Semaine</h2>
+            <div class="card match-card bg-light border-primary" itemscope itemtype="https://schema.org/SportsEvent">
                 <div class="card-body">
                     <div class="row align-items-center">
                         <div class="col-md-8">
-                            <h3>FC Fulbert Chartres vs Olympique Saint-Max</h3>
-                            <p class="lead mb-1"><i class="far fa-calendar me-2"></i>Samedi 15 octobre 2023 - 20h00</p>
-                            <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i>Stade des Ormes, Chartres</p>
-                            <p class="mb-0"><i class="fas fa-trophy me-2"></i>Championnat Régional 1 - 8ème journée</p>
+                            <h3 class="h2 text-primary" itemprop="name">FC Fulbert Chartres vs US Lucé</h3>
+                            <meta itemprop="startDate" content="2024-12-02T20:00">
+                            <p class="lead mb-1 fw-bold"><i class="far fa-calendar-alt me-2"></i>Samedi 2 Décembre 2024 - 20h00</p>
+                            <p class="mb-1" itemprop="location" itemscope itemtype="https://schema.org/Place">
+                                <i class="fas fa-map-marker-alt me-2 text-danger"></i>
+                                <span itemprop="name">Stade des Ormes, Chartres</span>
+                                <meta itemprop="address" content="Chartres, France">
+                            </p>
+                            <p class="mb-0 text-muted"><i class="fas fa-trophy me-2"></i>Derby Eure-et-Loir - Journée 12</p>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <div class="bg-primary text-white p-3 rounded">
-                                <h4 class="mb-0">À venir</h4>
-                                <small>Billetterie disponible</small>
+                        <div class="col-md-4 text-center mt-3 mt-md-0">
+                            <div class="bg-primary text-white p-4 rounded shadow-sm">
+                                <h4 class="mb-2">Entrée Gratuite</h4>
+                                <a href="contact.html" class="btn btn-warning fw-bold">Venir au stade</a>
                             </div>
                         </div>
                     </div>
@@ -72,308 +78,152 @@
             </div>
         </section>
 
-        <!-- Calendrier Complet -->
         <section class="mb-5" aria-labelledby="calendrier-heading">
-            <h2 id="calendrier-heading" class="section-title">Calendrier Complet</h2>
+            <h2 id="calendrier-heading" class="section-title">Résultats & À Venir</h2>
             
-            <!-- Filtres -->
             <div class="row mb-4">
-                <div class="col-12">
-                    <div class="btn-group" role="group">
+                <div class="col-12 text-center">
+                    <div class="btn-group" role="group" aria-label="Filtres des matchs">
                         <button type="button" class="btn btn-outline-primary active" data-filter="all">Tous</button>
-                        <button type="button" class="btn btn-outline-primary" data-filter="domicile">À domicile</button>
-                        <button type="button" class="btn btn-outline-primary" data-filter="exterieur">À l'extérieur</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="domicile">À Domicile</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="exterieur">À l'Extérieur</button>
                     </div>
                 </div>
             </div>
 
-            <!-- Liste des matchs -->
             <div class="row" id="matches-container">
-                <!-- Match 1 -->
                 <div class="col-12 mb-3 match-item domicile">
                     <div class="card match-card match-result-victory">
                         <div class="card-body">
                             <div class="row align-items-center">
                                 <div class="col-md-2 text-center">
-                                    <span class="badge badge-victory text-white p-2">Victoire</span>
-                                    <div class="mt-2"><strong>3-2</strong></div>
+                                    <span class="badge badge-victory text-white p-2 w-100">VICTOIRE</span>
+                                    <div class="mt-2 fs-4 fw-bold">3 - 1</div>
                                 </div>
-                                <div class="col-md-6">
-                                    <h5 class="mb-1">FC Fulbert Chartres vs AS Villebon</h5>
-                                    <p class="mb-1 text-muted">10 septembre 2023 - 15h00</p>
-                                    <p class="mb-0"><i class="fas fa-map-marker-alt me-1"></i>Stade des Ormes, Chartres</p>
+                                <div class="col-md-7">
+                                    <h5 class="mb-1">FC Fulbert Chartres vs AS Mainvilliers</h5>
+                                    <p class="mb-0 text-muted small"><i class="far fa-calendar me-1"></i>11 Novembre 2024 | Stade des Ormes</p>
                                 </div>
-                                <div class="col-md-4 text-end">
-                                    <span class="badge bg-primary">Journée 1</span>
+                                <div class="col-md-3 text-end">
+                                    <span class="badge bg-light text-dark border">Régional 1 - J10</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Match 2 -->
                 <div class="col-12 mb-3 match-item exterieur">
-                    <div class="card match-card match-result-defeat">
+                    <div class="card match-card match-result-draw">
                         <div class="card-body">
                             <div class="row align-items-center">
                                 <div class="col-md-2 text-center">
-                                    <span class="badge badge-defeat text-white p-2">Défaite</span>
-                                    <div class="mt-2"><strong>1-3</strong></div>
+                                    <span class="badge badge-draw text-white p-2 w-100">NUL</span>
+                                    <div class="mt-2 fs-4 fw-bold">1 - 1</div>
                                 </div>
-                                <div class="col-md-6">
-                                    <h5 class="mb-1">FC Palaiseau vs FC Fulbert Chartres</h5>
-                                    <p class="mb-1 text-muted">17 septembre 2023 - 18h30</p>
-                                    <p class="mb-0"><i class="fas fa-map-marker-alt me-1"></i>Stade Municipal, Palaiseau</p>
+                                <div class="col-md-7">
+                                    <h5 class="mb-1">FC Dreux vs FC Fulbert Chartres</h5>
+                                    <p class="mb-0 text-muted small"><i class="far fa-calendar me-1"></i>4 Novembre 2024 | Stade du Vieux Pré</p>
                                 </div>
-                                <div class="col-md-4 text-end">
-                                    <span class="badge bg-primary">Journée 2</span>
+                                <div class="col-md-3 text-end">
+                                    <span class="badge bg-light text-dark border">Régional 1 - J9</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Ajoutez d'autres matchs suivant le même pattern -->
-            </div>
-        </section>
-
-        <!-- Classement -->
-<!-- Présentation SEO -->
-<section aria-labelledby="presentation-heading">
-    <h2 id="presentation-heading" class="section-title">FC Fulbert Chartres – Esprit d’équipe et passion du foot local</h2>
-    <p>
-        Le <strong>FC Fulbert</strong> incarne l’âme du <strong>football à Chartres</strong> : un club formateur où chaque joueur,
-        des jeunes pousses aux seniors, partage une même envie – progresser, se dépasser et représenter fièrement les
-        couleurs du <strong>Football Club Fulbert</strong>. Ancré au cœur de l’Eure-et-Loir, notre club tisse des liens avec les
-        équipes voisines comme le <strong>FC Lèves</strong>, le <strong>Luisant Football Club</strong> ou le <strong>foot à Champhol</strong>, dans une
-        atmosphère de respect et de convivialité. Découvrez ci-dessous la <strong>liste des joueurs du FC Fulbert</strong> : une
-        équipe passionnée, soudée et ambitieuse, qui fait briller le <strong>soccer à Chartres</strong>.
-    </p>
-</section>
-
-<!-- Classement -->
-<section aria-labelledby="classement-heading">
-    <h2 id="classement-heading" class="section-title">Classement – Championnat Départemental</h2>
-    <div class="table-responsive">
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Équipe</th>
-                    <th>J</th>
-                    <th>G</th>
-                    <th>N</th>
-                    <th>P</th>
-                    <th>BP</th>
-                    <th>BC</th>
-                    <th>Diff</th>
-                    <th>Pts</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="table-success">
-                    <td>1</td>
-                    <td><strong>🏆 FC Fulbert Chartres</strong></td>
-                    <td>12</td>
-                    <td>9</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>28</td>
-                    <td>10</td>
-                    <td>+18</td>
-                    <td><strong>29</strong></td>
-                </tr>
-                <tr><td>2</td><td>AS Mainvilliers</td><td>12</td><td>8</td><td>3</td><td>1</td><td>24</td><td>9</td><td>+15</td><td>27</td></tr>
-                <tr><td>3</td><td>FC Dreux</td><td>12</td><td>7</td><td>4</td><td>1</td><td>22</td><td>11</td><td>+11</td><td>25</td></tr>
-                <tr><td>4</td><td>US Lucé</td><td>12</td><td>6</td><td>3</td><td>3</td><td>19</td><td>14</td><td>+5</td><td>21</td></tr>
-                <tr><td>5</td><td>Vernouillet FC</td><td>12</td><td>5</td><td>4</td><td>3</td><td>17</td><td>13</td><td>+4</td><td>19</td></tr>
-                <tr><td>6</td><td>AS Nogent-le-Roi</td><td>12</td><td>5</td><td>3</td><td>4</td><td>18</td><td>16</td><td>+2</td><td>18</td></tr>
-                <tr><td>7</td><td>Entente Barjouville</td><td>12</td><td>4</td><td>5</td><td>3</td><td>15</td><td>14</td><td>+1</td><td>17</td></tr>
-                <tr><td>8</td><td>FC Châteaudun</td><td>12</td><td>4</td><td>4</td><td>4</td><td>14</td><td>15</td><td>-1</td><td>16</td></tr>
-                <tr><td>9</td><td>AS Auneau</td><td>12</td><td>3</td><td>4</td><td>5</td><td>12</td><td>18</td><td>-6</td><td>13</td></tr>
-                <tr><td>10</td><td>ES Jouy</td><td>12</td><td>2</td><td>5</td><td>5</td><td>11</td><td>19</td><td>-8</td><td>11</td></tr>
-                <tr><td>11</td><td>FC Illiers-Combray</td><td>12</td><td>2</td><td>2</td><td>8</td><td>9</td><td>24</td><td>-15</td><td>8</td></tr>
-                <tr><td>12</td><td>US Épernon</td><td>12</td><td>1</td><td>3</td><td>8</td><td>8</td><td>27</td><td>-19</td><td>6</td></tr>
-            </tbody>
-        </table>
-    </div>
-</section>
-
-    </main>
-    <!-- Footer -->
-<footer class="bg-dark text-white py-4" role="contentinfo">
-    <div class="container">
-        <div class="row">
-            <!-- Colonne 1 : Club -->
-            <div class="col-md-3 mb-4">
-                <h3>FC Fulbert Chartres</h3>
-                <address>
-                    Stade des Ormes<br>
-                    Rue du Sport<br>
-                    28000 Chartres
-                </address>
-                <p>
-                    <i class="fas fa-phone me-2"></i>
-                    <a href="tel:+33237000000" class="text-white">02 37 00 00 00</a>
-                </p>
-                <p>
-                    <i class="fas fa-envelope me-2"></i>
-                    <a href="" class="text-white">fcfulbertchartres@gmail.com</a>
-                </p>
-            </div>
-
-            <!-- Colonne 2 : Navigation -->
-            <div class="col-md-3 mb-4">
-                <h3>Navigation</h3>
-                <ul class="list-unstyled">
-                    <li><a href="../index.html" class="text-white">Accueil</a></li>
-                    <li><a href="../pages/equipe.html" class="text-white">Équipe</a></li>
-                    <li><a href="../pages/calendrier.html" class="text-white">Calendrier</a></li>
-                    <li><a href="../pages/actualites.html" class="text-white">Actualités</a></li>
-                    <li><a href="../pages/contact.html" class="text-white">Contact</a></li>
-                    <li><a href="../pages/Classement.html" class="text-white">Classement</a></li>
-                </ul>
-            </div>
-
-            <!-- Colonne 3 : Partenaires institutionnels -->
-            <div class="col-md-3 mb-4">
-                <h3>Partenaires</h3>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="https://www.fff.fr" target="_blank" rel="noopener noreferrer" class="text-white">
-                            FFF - Fédération Française
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://liguecentre.fff.fr" target="_blank" rel="noopener noreferrer" class="text-white">
-                            Ligue Centre-Val de Loire
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://district28.fff.fr" target="_blank" rel="noopener noreferrer" class="text-white">
-                            District Eure-et-Loir
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Colonne 4 : Médias & Réseaux -->
-            <div class="col-md-3 mb-4">
-                <h3>Médias & Réseaux</h3>
-                
-                <!-- Médias locaux -->
-                <div class="mb-3">
-                    <h4 class="h6">Médias Chartrains</h4>
-                    <ul class="list-unstyled small">
-                        <li>
-                            <a href="https://www.lechorepublicain.fr" target="_blank" rel="noopener noreferrer" class="text-white">
-                                L'Écho Républicain
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://france3-regions.francetvinfo.fr/centre-val-de-loire" target="_blank" rel="noopener noreferrer" class="text-white">
-                                France 3 Centre
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.radio-intensite.fr" target="_blank" rel="noopener noreferrer" class="text-white">
-                                Radio Intensité
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Réseaux sociaux -->
-                <div>
-                    <h4 class="h6">Suivez-nous</h4>
-                    <div class="d-flex">
-                        <a href="https://facebook.com/fcfulbertchartres" class="text-white me-3" aria-label="Facebook">
-                            <i class="fab fa-facebook fa-2x"></i>
-                        </a>
-                        <a href="https://instagram.com/fcfulbertchartres" class="text-white me-3" aria-label="Instagram">
-                            <i class="fab fa-instagram fa-2x"></i>
-                        </a>
-                        <a href="https://twitter.com/fcfulbertchartres" class="text-white" aria-label="Twitter">
-                            <i class="fab fa-twitter fa-2x"></i>
-                        </a>
+                <div class="col-12 mb-3 match-item exterieur">
+                    <div class="card match-card border-secondary">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-md-2 text-center">
+                                    <span class="badge bg-secondary text-white p-2 w-100">À VENIR</span>
+                                    <div class="mt-2 fs-4">-</div>
+                                </div>
+                                <div class="col-md-7">
+                                    <h5 class="mb-1">Vineuil SF vs FC Fulbert Chartres</h5>
+                                    <p class="mb-0 text-primary small"><i class="far fa-calendar me-1"></i>Samedi 9 Décembre 2024 - 18h00</p>
+                                </div>
+                                <div class="col-md-3 text-end">
+                                    <a href="https://maps.google.com/?q=Stade+Municipal+Vineuil" target="_blank" class="btn btn-sm btn-outline-secondary"><i class="fas fa-location-arrow me-1"></i>Itinéraire</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <hr class="bg-white">
+        <section class="bg-light p-4 rounded mb-5">
+            <h2 class="h4">Le Football en Eure-et-Loir (28)</h2>
+            <p>Le <strong>championnat de Régional 1</strong> est le plus haut niveau régional. Le FC Fulbert y affronte des clubs historiques comme l'US Lucé ou le FC Dreux. Nos matchs à domicile se jouent au <strong>Stade des Ormes</strong>, véritable chaudron du football chartrain, situé à quelques minutes de la Cathédrale.</p>
+        </section>
 
-        <!-- Ligne supplémentaire pour plus de liens -->
-        <div class="row mt-3">
-            <div class="col-12 text-center">
-                <h4 class="h6 mb-2">Partenaires sportifs</h4>
-                <div class="d-flex flex-wrap justify-content-center gap-3 small">
-                    <a href="https://www.footeo.com" target="_blank" rel="noopener noreferrer" class="text-white">
-                        Footeo
-                    </a>
-                    <a href="https://www.sporteasy.fr" target="_blank" rel="noopener noreferrer" class="text-white">
-                        SportEasy
-                    </a>
-                    <a href="https://www.avisclient-ccf.com/" target="_blank" rel="noopener noreferrer" class="text-white">
-                        Clubs Football
-                    </a>
-                    <a href="https://www.decathlon.fr/magasin/chartres" target="_blank" rel="noopener noreferrer" class="text-white">
-                        Decathlon Chartres
-                    </a>
-                    <a href="https://www.univ-orleans.fr/" target="_blank" rel="noopener noreferrer" class="text-white">
-                        Université de Chartres
-                    </a>
+    </main>
+
+    <footer class="bg-dark text-white py-5" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h3>FC Fulbert</h3>
+                    <p class="small">Le cœur du football à Chartres depuis 1985.</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3>Liens</h3>
+                    <ul class="list-unstyled small">
+                        <li><a href="Classement.html" class="text-white-50">Classement R1</a></li>
+                        <li><a href="equipe.html" class="text-white-50">Effectif</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3>Partenaires</h3>
+                    <ul class="list-unstyled small">
+                        <li><a href="https://liguecentre.fff.fr" target="_blank" class="text-white-50">Ligue Centre</a></li>
+                        <li><a href="https://www.chartres.fr" target="_blank" class="text-white-50">Ville de Chartres</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3>Contact</h3>
+                    <p class="small">Stade des Ormes, 28000 Chartres</p>
                 </div>
             </div>
+            <div class="text-center mt-3 text-white-50 small">
+                &copy; 2024 FC Fulbert Chartres
+            </div>
         </div>
+    </footer>
 
-        <!-- Copyright -->
-        <div class="text-center mt-4">
-            <p class="mb-0">&copy; 2023 FC Fulbert Chartres - Tous droits réservés</p>
-            <p class="small mt-1">Club affilié à la <a href="https://www.fff.fr" target="_blank" rel="noopener noreferrer" class="text-white">FFF</a></p>
-        </div>
-    </div>
-</footer>
-
-    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../javascript/config.js"></script>
     <script src="../javascript/schemas.js"></script>
     <script src="../javascript/main.js"></script>
-    
     <script>
-        // Filtrage des matchs
         document.addEventListener('DOMContentLoaded', function() {
+            // Logique de filtrage (Conservée et optimisée)
             const filterButtons = document.querySelectorAll('[data-filter]');
             const matchItems = document.querySelectorAll('.match-item');
             
             filterButtons.forEach(button => {
                 button.addEventListener('click', function() {
-                    const filter = this.getAttribute('data-filter');
-                    
-                    // Active le bouton
                     filterButtons.forEach(btn => btn.classList.remove('active'));
                     this.classList.add('active');
+                    const filter = this.getAttribute('data-filter');
                     
-                    // Filtre les matchs
                     matchItems.forEach(item => {
-                        if (filter === 'all' || item.classList.contains(filter)) {
-                            item.style.display = 'block';
-                        } else {
-                            item.style.display = 'none';
-                        }
+                        item.style.display = (filter === 'all' || item.classList.contains(filter)) ? 'block' : 'none';
                     });
                 });
             });
             
-            // Schéma JSON-LD
-            injectSchema('calendrier', {
-                nextMatch: {
-                    name: "FC Fulbert Chartres vs Olympique Saint-Max",
-                    date: "2023-10-15T20:00",
-                    location: "Stade des Ormes, Chartres"
-                }
-            });
+            if (typeof injectSchema === 'function') {
+                injectSchema('calendrier', {
+                    nextMatch: {
+                        name: "FC Fulbert Chartres vs US Lucé",
+                        date: "2024-12-02T20:00",
+                        location: "Stade des Ormes, Chartres"
+                    }
+                });
+            }
         });
     </script>
 </body>
